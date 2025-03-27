@@ -1,0 +1,7 @@
+services:
+  home-server-homepage:
+    image: ghcr.io/0scar-m/home-server-homepage:main
+    container_name: home-server-homepage
+    restart: unless-stopped
+    ports:
+      - 80:80
